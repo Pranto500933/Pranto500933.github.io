@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700|Vollkorn:400,700&display=swap');
+
+body {
+	margin: 0;
+}
+
+header {
+	background: black;
+	opacity: .9;
+	color: white;
+	padding: 8px 0px 6px 40px;
+	height: 45px;
+}
+header h1 {
+	display: inline;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 32px;
+	float: left;
+	margin-top: 0px;
+	margin-right: 10px;
+}
+
+nav ul {
+	display: inline;
+	padding: 0px;
+	float: left;
+}
+nav ul li {
+	display: inline-block;
+	list-style-type: none;
+	color: white;
+	float: left;
+	margin-left: 12px;
+}
+
+nav ul li a {
+	color: white;
+text-decoration: none;
+}
+
+#nav {
+	font-family: 'Vollkorn', serif;
+}
+
+.homered {
+	background-color: red;
+	padding: 30px 10px 13px 16px;
+}
+
+.divider {
+	background-color: red;
+	height: 5px;
+}
+
+.homeblack:hover {
+background-color: blue;
+padding: 30px 10px 13px 16px;
+}
+
+/*------------------about-------------*/
+#about
+{
+	background-size: cover;
+	background-position: center;
+	color: #555 !important;
+	background-attachment: fixed;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#about h1
+{
+	text-align: center;
+	color: #555 !important;
+	padding-bottom: 10px;
+}
+#about h1::after
+{
+	content: '';
+	background: #07CE33;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin: 20px auto 5px;
+}
+/*-----------footer-----------*/
+#footer
+{
+background: #333;
+color: #fff;
+padding: 12px;
+}
+.fa-heart-o
+{
+	margin: 3px;
+	color: white;
+}
+#footer p
+{
+	text-align: center;
+}
+/*------------------Education-------------*/
+#education
+{
+	background-size: cover;
+	background-position: center;
+	color: #555 !important;
+	background-attachment: fixed;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#education h1
+{
+	text-align: center;
+	color: #555 !important;
+	padding-bottom: 10px;
+}
+#education h1::after
+{
+	content: '';
+	background: #07CE33;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin: 20px auto 5px;
+}
+
+/*----------Contact Me---------*/
+#contact
+{
+	background-size: cover;
+	background-position: center;
+	color: #555 !important;
+	background-attachment: fixed;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#contact h1
+{
+	text-align: center;
+	color: #555 !important;
+	padding-bottom: 10px;
+}
+#contact h1::after
+{
+	content: '';
+	background: #007bff;
+	display: block;
+	height: 3px;
+	width: 150px;
+	margin: 20px auto 5px;
+}
+/*-----------Contact Me-----------*/
+#contact
+{
+	background: #efefef;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: #777;
+}
+.contact-form
+{
+padding: 15px;
+}
+.contact-control
+{
+	border-radius: 0 !important;
+	border: none !important;
+}
+::placeholder
+{
+	color: #999 !important;
+}
+.follow
+{
+	background: #fff;
+	padding: 10px;
+	margin: 15px;
+	text-align: center;
+}
+.contact-info .fa
+{
+margin: 10px;
+color: #007bff;
+font-weight: bold;
+}
+#about h2
+{
+	text-align: center;
+}
+#about h3
+{
+	text-align: center;
+}
